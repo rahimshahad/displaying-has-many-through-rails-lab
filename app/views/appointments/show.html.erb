@@ -1,0 +1,1 @@
+This appointment is for <%=link_to @app.patient.name, patient_path(@app.patient)%> at <%=@app.appointment_datetime.strftime("%B %d, %Y at %k:%M")%> with <%=link_to @app.doctor.name, doctor_path(@app.doctor)%>
